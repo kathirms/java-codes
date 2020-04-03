@@ -34,7 +34,7 @@ class Allergies
                      continue;
                       n1=Math.abs(n-A.value[i]);
                 
-              for(int j=0;j<8;j++)
+              for(int j=0;j<8;j++)               //finding the given score match in the item
                 {
                   if(i==j)
                    continue;
@@ -97,7 +97,7 @@ class Allergies
         }
           
   }
-class A
+class A   //lists of the items and score
  {
    static String[]food={"eggs","peanuts","shellfish","strawberries","tomatoes","chocolate","pollen","cats"};
    static int value[]={1,2,4,8,16,32,64,128};
