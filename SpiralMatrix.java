@@ -15,7 +15,7 @@ class SpiralMatrix
             {
               for(int j=0;j<n;j++)
                  {
-                   System.out.print("   "+max[i][j]);
+                   System.out.print(String.format("%4d",max[i][j]));
                  }
                System.out.println("\n");  
             } 
