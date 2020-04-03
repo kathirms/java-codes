@@ -98,6 +98,6 @@ class Allergies
   }
 class A   //lists of the items and score
  {
-   static String[]food={"eggs","peanuts","shellfish","strawberries","tomatoes","chocolate","pollen","cats"};
+   static String[]food={"eggs(1)","peanuts(2)","shellfish(4)","strawberries(8)","tomatoes(16)","chocolate(32)","pollen(64)","cats(128)"};
    static int value[]={1,2,4,8,16,32,64,128};
  }  
