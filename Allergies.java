@@ -78,8 +78,7 @@ class Allergies
                      }
                  n=n-p;
                  n2[k++]=p;
-                 p=0;     
-                 System.out.println("Allerg"+n);
+                 p=0;    
                }   
           }
           if(flage==1)
