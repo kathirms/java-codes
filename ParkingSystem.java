@@ -15,7 +15,7 @@ class ParkingSystem // main class
                                
                   System.out.print("\t\t\t ***Wellcome To Multi Level Parking System***\n\n");
                        
-                       parkingList.add(new MultiLevelParkingSystem());  //created initial level 0 
+                       parkingLists.add(new MultiLevelParkingSystem());  //created initial level 0 
                        DisplayClass.display(parkingLists);//display the parking lists
                       
                        while(continueOrExit=='y')
@@ -168,7 +168,7 @@ class ParkingProcessClass
                       if(flage==0)//when can not finding the empty place  create the next parkinglevel
                            {
                            
-                             System.out.println("\n\t\t\t------>Your  Vehicle Move To next level To parking   Level :"+(parkingList.size()));
+                             System.out.println("\n\t\t\t------>Your  Vehicle Move To next level To parking   Level :"+(parkingLists.size()));
                              parkingLists.add(new MultiLevelParkingSystem());//create the level of parking and adding the parkingList(ArrayList)
                         
                            }   
